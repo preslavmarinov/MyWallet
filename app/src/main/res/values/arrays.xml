@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="type_array">
+        <item>Choose type</item>
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+    <string-array name="stats_array">
+        <item>Choose stats filter</item>
+        <item>Income and Expenses</item>
+        <item>Income and Categories</item>
+        <item>Expense and Categories</item>
+    </string-array>
+</resources>

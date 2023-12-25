@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/profileHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:id="@+id/firstNameBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileHeading"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name: "
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/fnameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lastNameBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstNameBlock"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name: "
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/lnameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userNameBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lastNameBlock"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="65dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name: "
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/unameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/userNameBlock">
+            <Button
+                android:id="@+id/logoutBtn"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:background="@drawable/rounded_login_btn"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

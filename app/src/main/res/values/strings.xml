@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="transactionBtnDescription">Go to transactions page</string>
+    <string name="categoriesBtnDescription">Go to categories page</string>
+    <string name="statisticsBtnDescription">Go to statistics page</string>
+    <string name="profileBtnDescription">Go to profile page</string>
+</resources>
